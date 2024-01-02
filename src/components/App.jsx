@@ -81,7 +81,7 @@ const App = () => {
       {/* модалка  */}
       {showModal && (
         <Modal onClose={onCloseModal}>
-          <img src={selectedImage} />
+          <img src={selectedImage} alt=''/>
         </Modal>
       )}
 
